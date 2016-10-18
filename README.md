@@ -1,8 +1,8 @@
 # content-model
 ##概要
-コンテンツモデル(content model)をPythonで実装  
+コンテンツモデル([content model](http://www.anthology.aclweb.org/N/N04/N04-1015.pdf))をPythonで実装  
 無限コンテンツモデル(infinite content model)をPythonで実装
-##content_model.pyの使い方(隠れマルコフモデル)
+##content_model.pyの使い方(コンテンツモデル)
 ```python
 # Sample code.
 from content_model import CM
