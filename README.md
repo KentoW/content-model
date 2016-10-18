@@ -1,8 +1,8 @@
-# hidden-markov-model
+# content-model
 ##概要
 コンテンツモデル(content model)をPythonで実装  
 無限コンテンツモデル(infinite content model)をPythonで実装
-##hidden_markov_model.pyの使い方(隠れマルコフモデル)
+##content_model.pyの使い方(隠れマルコフモデル)
 ```python
 # Sample code.
 from content import CM
