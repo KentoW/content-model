@@ -18,7 +18,7 @@ cm.set_param(alpha, beta, K, N, converge)
 cm.learn()
 cm.output_model()
 ```
-##infinite_content_model.pyの使い方(無限隠れコンテンツモデル)
+##infinite_content_model.pyの使い方(無限コンテンツモデル)
 ```python
 # Sample code.
 from infinite_content_model import ICM
