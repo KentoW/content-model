@@ -68,26 +68,26 @@ target_word	土
 target_word	吉日
 ...
 @count
-trans_sum	0	2134            # 遷移分布に必要な情報(分母の数)    左の数字から順に 隠れ変数のID，その隠れ変数から遷移する単語の数     (なおID=0は初期状態を意味する)
-trans_freq	0	1	488         # 遷移分布に必要な情報(分子の数)    左の数字から順に 遷移元の隠れ変数のID，遷移先の隠れ変数のID，遷移した数
-trans_freq	0	2	862
-trans_freq	0	3	597
-trans_freq	0	4	187
-trans_freq	0	5	0
-trans_sum	1	19685
-trans_freq	1	1	366
-trans_freq	1	2	5554
-trans_freq	1	3	4173
-trans_freq	1	4	105
-trans_freq	1	5	9487
+trans_sum	0	787
+trans_freq	0	1	197         # 遷移分布に必要な情報(分母の数)    左の数字から順に 隠れ変数のID，その隠れ変数から遷移する単語の数     (なおID=0は初期状態を意味する)
+trans_freq	0	2	210         # 遷移分布に必要な情報(分子の数)    左の数字から順に 遷移元の隠れ変数のID，遷移先の隠れ変数のID，遷移した数
+trans_freq	0	3	59
+trans_freq	0	4	140
+trans_freq	0	5	181
+trans_sum	1	249
+trans_freq	1	1	190
+trans_freq	1	2	15
+trans_freq	1	3	13
+trans_freq	1	4	15
+trans_freq	1	5	16
 ...
-word_sum	1	20123           # 単語分布に必要な情報(分母の数)    左の数字から順に 隠れ変数のID，その隠れ変数から生成される単語の数
-word_freq	1	い	1051        # 単語分布に必要な情報(分子の数)    左から順に 隠れ変数のID，その隠れ変数から生成される単語，と生成された頻度
-word_freq	1	人	785
-word_freq	1	いる	684
-word_freq	1	年	349
-word_freq	1	しまう	348
-word_freq	1	いく	290
+word_sum	1	30158           # 単語分布に必要な情報(分母の数)    左の数字から順に 隠れ変数のID，その隠れ変数から生成される単語の数
+word_freq	1	の	2068        # 単語分布に必要な情報(分子の数)    左から順に 隠れ変数のID，その隠れ変数から生成される単語，と生成された頻度
+word_freq	1	を	1198
+word_freq	1	に	1078
+word_freq	1	た	879
+word_freq	1	は	837
+word_freq	1	が	748
 ...
 @data
 # 戦勇。
