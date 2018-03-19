@@ -1,5 +1,5 @@
 # content-model
-##概要
+## 概要
 コンテンツモデル([content model](http://www.anthology.aclweb.org/N/N04/N04-1015.pdf))をPythonで実装  
 無限コンテンツモデル(infinite content model)をPythonで実装
 ##content_model.pyの使い方(コンテンツモデル)
@@ -18,7 +18,7 @@ cm.set_param(alpha, beta, K, N, converge)
 cm.learn()
 cm.output_model()
 ```
-##infinite_content_model.pyの使い方(無限コンテンツモデル)
+## infinite_content_model.pyの使い方(無限コンテンツモデル)
 ```python
 # Sample code.
 from infinite_content_model import ICM
@@ -33,7 +33,7 @@ icm.set_param(alpha, beta, N, converge)
 icm.learn()
 icm.output_model()
 ```
-##入力フォーマット
+## 入力フォーマット
 1単語をスペースで分割した1行1文形式  
 文書の先頭に#(シャープ)記号を入れなければならない
 ```
